@@ -67,7 +67,7 @@ namespace Design.Patterns.Creational.Factory.FactorySample
 
     class TestFactory
     {
-        static void Run(string[] args)
+        static void Run()
         {
             Console.WriteLine("***Factory Pattern Demo***\n"); // Creating a Tiger Factory
  
