@@ -1,6 +1,7 @@
 using System;
 
-// Definition: Define an interface for creating an object, but let subclasses decide which class to instantiate. The Factory Method pattern lets a class defer instantiation to subclasses.
+// Definition: Define an interface for creating an object, but let subclasses decide which class to instantiate.
+// The Factory Method pattern lets a class defer instantiation to subclasses.
 
 namespace Design.Patterns.Creational.Factory.FactorySample
 {
@@ -64,7 +65,7 @@ namespace Design.Patterns.Creational.Factory.FactorySample
         }
     }
 
-    class Client
+    class TestFactory
     {
         static void Run(string[] args)
         {

@@ -55,7 +55,7 @@ namespace Design.Patterns.Creational.Factory.SimpleFactorySample
         }
     }
 
-    class Client
+    class TestSimpleFactory
     {
         static void Run()
         {
