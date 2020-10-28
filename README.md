@@ -7,3 +7,5 @@ This project is based on book [Design Patterns in C#](https://www.amazon.com/Des
     * **Prototype**: Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype.
     * **Factory**: Define an interface for creating an object, but let subclasses decide which class to instantiate. The Factory Method pattern lets a class defer instantiation to subclasses.
     * **Abstract Factory**: Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
+2. Structural
+    * **Proxy**: Provide a surrogate or placeholder for another object to control access to it.
