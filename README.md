@@ -9,3 +9,5 @@ This project is based on book [Design Patterns in C#](https://www.amazon.com/Des
     * **Abstract Factory**: Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
 2. Structural
     * **Proxy**: Provide a surrogate or placeholder for another object to control access to it.
+    * **Decorator**: Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+
