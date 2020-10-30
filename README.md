@@ -10,4 +10,5 @@ This project is based on book [Design Patterns in C#](https://www.amazon.com/Des
 2. Structural
     * **Proxy**: Provide a surrogate or placeholder for another object to control access to it.
     * **Decorator**: Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+    * **Adapter**: Convert the interface of a class into another interface that clients expect. The Adapter pattern lets classes work together that could not otherwise because of incompatible interfaces.
 
