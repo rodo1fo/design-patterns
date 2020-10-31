@@ -9,9 +9,6 @@ namespace Design.Patterns.Structural.ProxySample
         public abstract void DoSomeWork();
     }
 
-    /// <summary>
-    /// ConcreteSubject class
-    /// </summary>
     public class ConcreteSubject : Subject
     {
         public override void DoSomeWork()
@@ -20,9 +17,6 @@ namespace Design.Patterns.Structural.ProxySample
         }
     }
 
-    /// <summary>
-    /// Proxy class
-    /// </summary>
     public class Proxy : Subject
     {
         Subject _cs;
