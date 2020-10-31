@@ -12,3 +12,14 @@ This project is based on book [Design Patterns in C#](https://www.amazon.com/Des
     * **Decorator**: Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
     * **Adapter**: Convert the interface of a class into another interface that clients expect. The Adapter pattern lets classes work together that could not otherwise because of incompatible interfaces.
     * **Facade**: Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
+
+
+### Differences between Adapter, Facade, Proxy
+
+* **Adapter**: Adapts a given class/object to a new interface. The object is wrapped by a conforming adapter object and passed around. The problem we are solving here is that of non-compatible interfaces.
+
+* **Facade**: Is more like a simple gateway to a complicated set of functionality. You make a black-box for your clients to worry less i.e. make interfaces simpler.
+
+* **Proxy**: Provides the same interface as the proxied-for class and typically does some housekeeping stuff on its own. 
+(So instead of making multiple copies of a heavy object X you make copies of a lightweight proxy P which in turn manages X and translates your calls as required.) 
+You are solving the problem of the client from having to manage a heavy and/or complex object.
