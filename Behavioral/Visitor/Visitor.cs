@@ -72,8 +72,7 @@ namespace Design.Patterns.Behavioral.VisitorPattern
         }
 
         public void Draw()
-        {
-        }
+        { }
 
         public void Accept(IVisitor v)
         {
