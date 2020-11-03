@@ -30,7 +30,7 @@ This project is based on book [Design Patterns in C#](https://www.amazon.com/Des
 
     * **Visitor**: Represent an operation to be performed on the elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates.
 
-
+    * **Observer**: Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 
 ### Differences between Adapter, Facade, Proxy
 
