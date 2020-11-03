@@ -11,6 +11,7 @@ This project is based on book [Design Patterns in C#](https://www.amazon.com/Des
     * **Factory**: Define an interface for creating an object, but let subclasses decide which class to instantiate. The Factory Method pattern lets a class defer instantiation to subclasses.
 
     * **Abstract Factory**: Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
+
 2. Structural
 
     * **Proxy**: Provide a surrogate or placeholder for another object to control access to it.
@@ -24,6 +25,11 @@ This project is based on book [Design Patterns in C#](https://www.amazon.com/Des
     * **Composite**: Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly
 
     * **Bridge**: Decouple an abstraction from its implementation so that the two can vary independently.
+
+3. Behavioral
+
+    * **Visitor**: Represent an operation to be performed on the elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates.
+
 
 
 ### Differences between Adapter, Facade, Proxy
