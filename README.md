@@ -41,3 +41,6 @@ This project is based on book [Design Patterns in C#](https://www.amazon.com/Des
 * **Proxy**: Provides the same interface as the proxied-for class and typically does some housekeeping stuff on its own. 
 (So instead of making multiple copies of a heavy object X you make copies of a lightweight proxy P which in turn manages X and translates your calls as required.) 
 You are solving the problem of the client from having to manage a heavy and/or complex object.
+
+* **Strategy**: Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+
