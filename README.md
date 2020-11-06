@@ -46,3 +46,4 @@ You are solving the problem of the client from having to manage a heavy and/or c
 
 * **Template**: Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. The Template Method pattern lets subclasses redefine certain steps of an algorithm without changing the algorithm’s structure.
 
+* **Iterator**: Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
