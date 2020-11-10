@@ -49,3 +49,5 @@ You are solving the problem of the client from having to manage a heavy and/or c
 * **Iterator**: Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
 
 * **Memento**: Without violating encapsulation, capture and externalize an object’s internal state so that the object can be restored to this state later.
+
+* **State**: Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
